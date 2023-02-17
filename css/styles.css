@@ -391,7 +391,6 @@ img {
     transition-property: transform;
     transition-duration: 250ms;
     transition-timing-function: var(--timing-function);
-    opacity: 0;
 }
 .picture-item:hover {
     border: 0.5px solid var(--color-footer-logo);
@@ -401,7 +400,6 @@ img {
 }
 .picture-item:hover .picture-text-overlay {
     transform: translateY(0);
-    opacity: 1;
 }
 .picture-title {
     font-weight: 500;
